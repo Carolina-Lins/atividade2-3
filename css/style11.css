@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 156, 217);
+    animation: pulsar 3s linear infinite;
+}
+
+@keyframes pulsar {
+    0%{
+        width: 100px;
+        height: 100px;
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+}
+
+button{
+    background-color: blanchedalmond;
+    margin: 10px;
+    width: 60px;
+    font-family: monospace;
+    }
+    a{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    transform: translate(-30%, 95%);
+    animation: mover 3s ease;   
+}
+
+@keyframes mover{
+100% {
+    transform: translateY(-100px);
+    transform: translateX(-600px);
+    width: 70px;        
+    height: 70px;
+    }
+}
+button{
+background-color: blanchedalmond;
+margin: 10px;
+width: 60px;
+font-family: monospace;
+}
+a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+

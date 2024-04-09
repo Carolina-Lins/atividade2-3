@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.content {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(236, 0, 146);
+    border-radius: 50%;
+    animation: mover 4s infinite;
+}
+
+@keyframes mover {
+    100% {
+       transform: translateX(500px);
+    }
+}
+
+button{
+    background-color: blanchedalmond;
+    margin: 10px;
+    width: 60px;
+    font-family: monospace;
+    }
+    a{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
